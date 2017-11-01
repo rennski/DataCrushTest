@@ -5,7 +5,8 @@ var JobPosting = new mongoose.Schema({
   title: String,
   blurb: String,
   languages: [String],
-  frameworks: [String]
+  frameworks: [String],
+  successfulCandidate: String
 });
 
 module.exports = JobPosting;
